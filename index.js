@@ -44,9 +44,7 @@ function displayWindowInfo() {
 
 window.setInterval(manageChartData, 200);
 
-console.log(myBarChart.data.labels);
 myBarChart.data.labels.push('hello');
-console.log(myBarChart.data.labels);
 
 function manageChartData() {
     myBarChart.data.labels.push(createRandomString(5));
