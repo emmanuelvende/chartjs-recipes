@@ -1,0 +1,7 @@
+.chart-container {
+    /* position: relative; */
+    height: 40vh;
+    width: 90vw;
+    /* centering the div trick */
+    margin: 0 auto;
+}
